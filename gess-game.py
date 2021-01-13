@@ -22,7 +22,6 @@ def gess_user(v):
         elif gess < number:
             print(colored("you down get up ",'red'))
         
-import random
 def cumputer_gess(x):
     low = 1
     hei = x
@@ -36,4 +35,3 @@ def cumputer_gess(x):
         if back =='h':
             hei = gess -1
     print(f'the gess is {gess}')
-

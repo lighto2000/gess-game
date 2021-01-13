@@ -1,8 +1,8 @@
 from termcolor import colored
 from time import sleep
 import random
-def gess_user():
-    number = random.randint(0,200)
+def gess_user(v):
+    number = random.randint(0,v)
     x = True
     if number %2==0:
         print(colored('its even number ','green'))
@@ -37,4 +37,3 @@ def cumputer_gess(x):
             hei = gess -1
     print(f'the gess is {gess}')
 
-cumputer_gess(60)
